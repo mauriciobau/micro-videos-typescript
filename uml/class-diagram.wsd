@@ -1,0 +1,17 @@
+@startuml
+
+entity Categary
+
+Categary : uuid id
+Categary : string name
+Categary : string description
+Categary : boolean is_active
+Categary : date created_at
+
+Categary : create()
+Categary : update()
+Categary : activete()
+Categary : deactivete()
+Categary : delete()
+
+@enduml
